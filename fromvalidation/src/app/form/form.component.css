@@ -1,0 +1,39 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  /* border: 2px solid black; */
+  align-items: center;
+  justify-items: center;
+  padding-top: 20px;
+  margin: 10px;
+}
+
+p {
+  color: blue;
+  padding: 15px;
+  font-size: 18px;
+}
+
+input {
+  padding: 5px;
+  margin: 3px;
+  border-top-style: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: orange;
+  width: 250px;
+}
+
+.btn {
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 5px;
+  background-color: orangered;
+}
+
+.subbtn {
+  padding: 15px;
+  margin: 5px;
+
+}
